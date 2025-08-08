@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- box icons -->
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+    <link href='https://cdn.boxicons.com/fonts/animations.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo" data-en="Portfolio from Cihan Cicek" data-de="Portfolio von Cihan Cicek">Portfolio von
+            Cihan Cicek</a>
+        <button id="lang-switch"
+            style="margin-left:2rem; font-size:1.2rem; background:var(--main-color); border-radius:8px; border:none; padding:0.5rem 1rem; cursor:pointer;" data-en="DE | EN" data-de="EN | DE">EN
+            | DE</button>
+        <div class='bxr bx-menu' id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active" data-en="Home" data-de="Start">Start</a>
+            <!--<a href="#about" data-en="About" data-de="Über">About</a>-->
+            <a href="#services" data-en="Skills" data-de="Fähigkeiten">Fähigkeiten</a>
+            <a href="#portfolio" data-en="Projects" data-de="Projekte">Projekte</a>
+            <a href="#prospects" data-en="Career Prospects" data-de="Aussichten">Aussichten</a>
+            <a href="#contact" data-en="Contact" data-de="Kontakt">Kontakt</a>
+            
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3 data-en="Greetings!" data-de="Grüß dich!">Grüß dich!</h3>
+            <h3 data-en='You can call me <span class="pronunciation-tooltip" title="/d͡ʒiˈhan/">Cihan.</span>' data-de='Du kannst mich <span class="pronunciation-tooltip" title="/d͡ʒiˈhan/">Cihan</span> nennen.'>Du kannst mich <span class="pronunciation-tooltip" title="/d͡ʒiˈhan/">Cihan</span> nennen.</h3>
+            <h3 data-en="I'm an" data-de="Ich bin">Ich bin <span class="multiple-text"></span></h3>
+            <div class="social-media">
+                <a href="https://github.com/stickmaaaan" target="_blank" rel="noopener noreferrer" style="text-decoration:none;" title="GitHub"><i class='bxl bx-github bx-flashing-hover'></i></a>
+                <a href="https://www.linkedin.com/in/cihan-cicek-749736373/" target="_blank" rel="noopener noreferrer" style="text-decoration:none;" title="LinkedIn"><i class='bxl bx-linkedin bx-flashing-hover'></i></a>
+            </div>
+            <a href="#" class="btn" id="cv-download-btn" data-en="Download CV" data-de="Lebenslauf herunterladen">Lebenslauf herunterladen</a>
+            <div id="cv-links" style="display:none; flex-direction:column; gap:0.5rem; margin-top:1rem; align-items:flex-start;">
+                <a href="cv/CV_EN.pdf" target="_blank" rel="noopener noreferrer" style="text-decoration:none;" download class="btn" data-en="English Version" data-de="Englische Version">Englische Version</a>
+                <a href="cv/CV_DE.pdf" target="_blank" rel="noopener noreferrer" style="text-decoration:none;" download class="btn" data-en="German Version" data-de="Deutsche Version">Deutsche Version</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="images/home.jpg" alt="Cihan Cicek Profilbild">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <!--
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="images/about.jpg" alt="Über mich Bild">
+    </div>
+    <div class="about-content">
+        <h2 class="heading" data-en="About Me" data-de="Über mich">About <span>Me</span></h2>
+        <h4 data-en="I do repairs for IoT-Devices" data-de="Ich repariere IoT-Geräte">I do repairs for IoT-Devices</h4>
+        <a href="#" class="btn" data-en="Read More" data-de="Mehr erfahren">Read More</a>
+    </div>
+</section>
+-->
+
+    <div style="width:100%; height:35rem;"></div>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading" data-en="My <span>Skills</span>" data-de="Meine <span>Fähigkeiten</span>">Meine <span>Fähigkeiten</span></h2>
+
+        <div class="services-container">
+
+            <div class="services-box">
+                <i class='bx bx-bolt bx-breathe'  ></i>  
+                <h3 data-en="Repairs" data-de="Reparaturen">Reparaturen</h3>
+                <p data-en="If it runs on electricity, I'll repair it" data-de="Wenn es mit Strom läuft, kann ich es reparieren">Wenn es mit Strom läuft, kann ich es reparieren</p>
+                <!-- <a href="#" class="btn" data-en="Read More" data-de="Mehr erfahren">Read More</a>-->
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-microchip bx-breathe'></i>
+                <h3 data-en="Embedded Systems" data-de="Eingebettete Systeme">Eingebettete Systeme</h3>
+                <p data-en="Robotics and more" data-de="Robotik und mehr">Robotik und mehr</p>
+                <!-- <a href="#" class="btn" data-en="Read More" data-de="Mehr erfahren">Read More</a>-->
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-network-chart bx-breathe'></i>
+                <h3 data-en="Networking" data-de="Netzwerke">Netzwerke</h3>
+                <p data-en="The beauty of interoperability" data-de="Die Schönheit der Interoperabilität">Die Schönheit der Interoperabilität</p>
+               <!-- <a href="#" class="btn" data-en="Read More" data-de="Mehr erfahren">Read More</a>-->
+            </div>
+        </div>
+    </section>
+
+    <div style="width:100%; height:35rem;"></div>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading" data-en="Latest <span>Project</span>" data-de="Letztes <span>Projekt</span>">Letztes <span>Projekt</span></h2>
+
+        <div class="portfolio-container">
+
+
+
+            <!--    PROJECT 1    -->
+            <a href="https://github.com/stickmaaaan/WindowTransparency/tree/main" target="_blank" rel="noopener noreferrer" style="text-decoration:none;">
+                <div class="portfolio-box">
+                    <img src="images/project1.png" alt="Window Transparency Screenshot">
+                    <div class="portfolio-layer">
+                        <h4 style="color: #000;" data-en="WindowTransparency" data-de="WindowTransparency">WindowTransparency</h4>
+                        <p style="color: #000;" data-en="make your windows glassy!" data-de="Mache deine Fenster durchsichtig!">Mache deine Fenster durchsichtig!</p>
+                    </div>
+                </div>
+            </a>
+
+
+
+
+        </div>
+    </section>
+
+    <div style="width:100%; height:35rem;"></div>
+
+    <!-- contact section design -->
+    <section class="prospects" id="prospects">
+        <h2 class="heading" data-en="My <span>Prospects</span>" data-de="Meine <span>Aussichten</span>">Meine <span>Aussichten</span></h2>
+        <p class="prospects-lead" data-en="Areas in which I want to develop myself" data-de="Bereiche, in denen ich mich entwickeln möchte" style="font-size:2.2rem; font-weight:600; color:var(--main-color); text-align:center; margin:2.5rem auto 1.5rem auto; letter-spacing:0.03em; max-width:600px;">
+            <span>Bereiche</span><br>
+            in denen ich mich<br>
+            <span>entwickeln</span> möchte
+        </p>
+        <div class="prospects-container" style="display: flex; flex-wrap: wrap; gap: 2.5rem; justify-content: center; margin-top:2.5rem;">
+            <!-- Automation Block -->
+            <div class="prospects-box" style="flex:1 1 320px; min-width:270px; max-width:400px; background:var(--second-bg-color); border-radius:18px; box-shadow:0 2px 16px rgba(0,0,0,0.08); padding:2.5rem 2rem; display:flex; flex-direction:column; align-items:center;">
+                <i class='bx bx-robot bx-breathe' style="font-size:3.5rem; color:var(--main-color);"></i>
+                <h3 data-en="Automation" data-de="Automatisierung">Automatisierung</h3>
+                <p data-en="To bring an end to the Sisyphean task...." data-de="Die Sisyphusarbeit ein Ende bereiten....">Die Sisyphusarbeit ein Ende bereiten....</p>
+               <!-- <a href="#" class="btn" data-en="Read More" data-de="Mehr erfahren" style="margin-top:1.2rem;">Read More</a>  -->
+            </div>
+            <!-- AI Block -->
+            <div class="prospects-box" style="flex:1 1 320px; min-width:270px; max-width:400px; background:var(--second-bg-color); border-radius:18px; box-shadow:0 2px 16px rgba(0,0,0,0.08); padding:2.5rem 2rem; display:flex; flex-direction:column; align-items:center;">
+                <i class='bx bx-terminal bx-breathe' style="font-size:3.5rem; color:var(--main-color);"></i>
+                <h3 data-en="Artificial Intelligence" data-de="Künstliche Intelligenz">Künstliche Intelligenz</h3>
+                <p data-en="....and simplify interlinked workflows." data-de="....und den Fluss aufeinanderfolgender Arbeiten erleichtern.">....und den Fluss aufeinanderfolgender Arbeiten erleichtern.</p>
+               <!-- <a href="#" class="btn" data-en="Read More" data-de="Mehr erfahren" style="margin-top:1.2rem;">Read More</a>  -->
+            </div>
+        </div>
+    </section>
+
+    <div style="width:100%; height:35rem;"></div>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading" data-en="Contact <span>Me!</span>" data-de="Kontaktiere <span>Mich!</span>">Kontaktiere <span>Mich!</span></h2>
+        <div class="contact-email" style="display: flex; justify-content: center; align-items: center; margin-top: 2.5rem;">
+            <a href="mailto:cihan.cicek@gmx.net" class="btn" style="font-size:1.2rem; padding:1rem 2rem; display:inline-block; min-width:270px; text-align:center;" data-en="cihan.cicek@gmx.net" data-de="cihan.cicek@gmx.net">cihan.cicek@gmx.net</a>
+        </div>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p data-en="Copyright &copy; 2025 Cihan Cicek | All Rights Reserved." data-de="Copyright &copy; 2025 Cihan Cicek | Alle Rechte vorbehalten.">Copyright &copy; 2025 Cihan Cicek | Alle Rechte vorbehalten.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home" title="Back to top"><i class='bx bx-chevrons-up'  ></i> </a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+    <script>
+        // Set default language to German on initial load
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof switchLanguage === 'function') {
+                switchLanguage('de');
+            } else {
+                // Fallback: manually trigger language switch if function is not globally available
+                var langSwitchBtn = document.getElementById('lang-switch');
+                if (langSwitchBtn && langSwitchBtn.textContent.includes('DE')) {
+                    langSwitchBtn.click();
+                }
+            }
+        });
+    </script>
+</body>
+
+
+</html>
